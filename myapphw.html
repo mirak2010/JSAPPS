@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apps in JS HW</title>
+    <h1>Apps in JS HW</h1>
+</head>
+<body>
+    <script>
+var choice=prompt("Welcome to a perimeter calculator! \n Please enter your choice for the shape that you want to calculate the perimeter of. \n1) The perimeter of a square. \n2) The perimeter of a rectangle. \n3) The perimeter of a circle \n4) The perimeter of a triangle  ")
+if (choice == '1'){
+    var a= prompt("Enter the length of one side(we only need one side because all of the sides of the square are eqaual)")
+    var result=Number(4)*Number(a)
+    alert("The perimeter is " + result)
+}
+if (choice == '2'){
+    var b= prompt("Enter the length")
+    var c= prompt("Enter the breadth")
+    var result=(Number(b) + Number(c)) *2
+    alert("The perimeter is " + result)
+}
+if (choice== '3'){
+    var d= prompt("Enter the radius")
+    var result= 2 * 3.14 * Number(d)
+    alert("The perimeter is " + result)
+}
+if (choice == '4'){
+    var e= prompt("Enter the length")
+    var f= prompt("Enter the breadth")
+    var g= prompt("Enter the third length")
+    var result= Number(e) + Number(f) + Number(g)
+    alert("The perimeter is " + result)
+}
+    
+    
+    
+    </script>
+
+</body>
+</html>

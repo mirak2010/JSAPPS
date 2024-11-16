@@ -2,7 +2,7 @@
  if (choice == '1'){
     var a= prompt("Enter Length")
     var b= prompt("Enter the breadth")
-    var result= Number(1) * Number(b);
+    var result= Number(a) * Number(b);
     alert("The area is " + result);
 
  } 
